@@ -2,7 +2,7 @@
 
 ## Content
 1. Init env: [`Create env`](#create-environment), [`Activate env`](#activate-environment), [`Install libraries`](#install-libraries)
-2. Conditional operator `if`: [`Conditional operator if`](#conditional-operator-if), [`Ternatry if`](#ternary-if)
+2. Conditional operator `if`: [`Conditional operator if`](#conditional-operator-if), [`Ternary if`](#ternary-if)
 
 ## Create environment  
 Template:
@@ -95,7 +95,7 @@ if __name__ == '__main__':
      print('Not an adult')
    ```
 
-2. Ternary `if`  
+2. Ternary `if` <a name="ternary-if"></a>  
    Template:
    ```python
    <condition is True> if <condition> else <condition is False>
