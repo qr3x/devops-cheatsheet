@@ -87,9 +87,9 @@ if __name__ == '__main__':
    Example:
    ```python
    age = 15
-   if age > 21:
+   if age >= 21:
      print('Adult in Argentina')
-   elif age > 18:
+   elif age >= 18:
      print('Adult in Russia')
    else:
      print('Not an adult')
@@ -103,7 +103,7 @@ if __name__ == '__main__':
    Examples:
    ```python
    age = 15
-   print('Adult') if age > 18 else print('Not an adult')
+   print('Adult') if age >= 18 else print('Not an adult')
    ```
    ```python
    is_cat = True
