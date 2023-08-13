@@ -1,4 +1,4 @@
 # devops-cheatsheet
 Cheat sheet for DevOps tools
 
-1. [python](src/python/README.md)
+1. Programming languages: [`Python`](src/python/README.md), `Groovy (Jenkins pipeline)`
