@@ -3,6 +3,7 @@
 ## Content
 1. Init env: [`Create env`](#create-environment), [`Activate env`](#activate-environment), [`Install libraries`](#install-libraries)
 2. Conditional operator `if`: [`Conditional operator if`](#conditional-operator-if), [`Ternary if`](#ternary-if)
+3. Loops: [`For`](#for), [`While`](#while)
 
 ## Create environment  
 Template:
@@ -78,21 +79,21 @@ if __name__ == '__main__':
    Template:
    ```python
    if <condition 1>:
-     <code>
+       <code>
    elif <condition 2>:
-     <code>
+       <code>
    else:
-     <code>
+       <code>
    ```
    Example:
    ```python
    age = 15
    if age >= 21:
-     print('Adult in Argentina')
+       print('Adult in Argentina')
    elif age >= 18:
-     print('Adult in Russia')
+       print('Adult in Russia')
    else:
-     print('Not an adult')
+       print('Not an adult')
    ```
 
 2. Ternary `if` <a name="ternary-if"></a>  
@@ -108,4 +109,51 @@ if __name__ == '__main__':
    ```python
    is_cat = True
    animal = 'cat' if is_cat else 'dog'
+   ```
+
+## For
+   Template:
+   ```python
+   for <variable> in <variable>:
+       <code>
+   else:
+       <code if the word break wasn't used>
+   ```
+   Examples:
+   ```python
+   for artifact in artifacts:
+       deploy_artifact(artifact)
+   ```
+   ```python
+   for char in 'Hello world!':
+       if char == 'a':
+           break
+   else:
+       print("The letter 'a' isn't in the string")
+   ```
+
+## While  
+   Template:
+   ```python
+   while <condition>:
+       <code>
+   else:
+       <code if the word break wasn't used>
+   ```
+   Examples:
+   ```python
+   i = 0
+   while i < 15:
+       print(i)
+       i += 1
+   ```
+   ```python
+   i = 0
+   while i < 15:
+       result = do_something()
+       if result == 'error':
+           break
+       i += 1
+   else:
+       print('Made no errors')
    ```
